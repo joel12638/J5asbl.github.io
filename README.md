@@ -26,91 +26,76 @@ Notre formulaire de commande est disponible à l'adresse: [https://j5asbl.github
 - ✅ Envoi direct des commandes vers WhatsApp
 - ✅ Compatible mobile et desktop
 - ✅ Design responsive qui s'adapte à tous les appareils
-
-# Formulaire BRAClic - Demande de Service de Livraison
-
-Bonjour [Nom du Client],
-
-Nous vous remercions de votre intérêt pour BRAClic, votre service de livraison rapide et fiable. Pour mieux répondre à vos besoins, veuillez remplir ce formulaire détaillé.
+**FORMULAIRE DE COMMANDE BRACLIC - LIVRAISON DE BOISSONS À KINSHASA**  
+*Service de livraison de produits Bralima et boissons diverses*
 
 ---
 
-## **Informations Personnelles**
-- Nom complet : _________________________________
-- Société/Entreprise : ___________________________
-- Adresse email : ________________________________
-- Numéro de téléphone : _________________________
-- Adresse postale : ______________________________
-- Code postal : __________ Ville : _________________
+### 📦 **Informations client**
+- **Nom complet** : _________________________
+- **Téléphone** : +243 ______ ______ 
+- **Adresse email** : _________________________
+- **Quartier/Commune** : _________________________ (Livraison disponible dans tout Kinshasa, y compris Gombe) 
 
 ---
 
-## **Détails de la Livraison**
-- Type de colis : ☐ Document ☐ Petit paquet ☐ Colis volumineux
-- Dimensions (L x l x H) : _______ cm x _______ cm x _______ cm
-- Poids approximatif : _______ kg
-- Nature du contenu : ____________________________
-- Valeur déclarée : _______ €
+### 🏠 **Adresse de livraison**
+- **Adresse exacte** : _________________________
+- **Points de repère** : _________________________
+- **Instructions spéciales** : _________________________
 
 ---
 
-## **Adresses de Livraison**
-**Point de ramassage :**
-- Adresse : ____________________________________
-- Code postal : __________ Ville : _________________
-- Personne à contacter : _________________________
-- Téléphone sur place : __________________________
-- Plage horaire préférée : ☐ Matin ☐ Après-midi ☐ Soirée
+### 🍻 **Détails de la commande**
+**Produits Bralima disponibles** (sélectionnez les produits et quantités)  :
+- [ ] **Primus** (50cl ou 72cl) - Quantité : ______
+- [ ] **Mützig** - Quantité : ______
+- [ ] **Turbo King** - Quantité : ______
+- [ ] **Maltina** (33cl) - Quantité : ______
+- [ ] **Coca-Cola** (30cl verre/plastique) - Quantité : ______
+- [ ] **Fanta Orange** (30cl) - Quantité : ______
+- [ ] **Sprite** (30cl) - Quantité : ______
+- [ ] **Vital’O** (1,5L ou 30cl) - Quantité : ______
+- [ ] **Autre (précisez)** : _________________________ - Quantité : ______
 
-**Point de livraison :**
-- Adresse : ____________________________________
-- Code postal : __________ Ville : _________________
-- Personne à contacter : _________________________
-- Téléphone sur place : __________________________
-- Instructions spéciales : ________________________
-_______________________________________________
+**💡 Panier minimum : 50 000 FC** 
 
 ---
 
-## **Préférences de Service**
-- Délai de livraison souhaité :
-  ☐ Express (2-4h) ☐ Standard (24h) ☐ Économique (48h)
-- Options supplémentaires :
-  ☐ Livraison contre signature
-  ☐ Preuve de livraison avec photo
-  ☐ Assurance complète
-  ☐ Emballage professionnel (+15€)
-  ☐ Livraison dimanche/férié (+30%)
+### ⏰ **Préférences de livraison**
+- **Date souhaitée** : __/__/____
+- **Créneau horaire** : ☐ Matin (8h-12h) ☐ Après-midi (12h-17h) ☐ Soirée (17h-20h)
+- **Urgence** : ☐ Standard (24h) ☐ Express (moins de 4h) (*sous réserve de disponibilité*)
 
 ---
 
-## **Informations de Paiement**
-- Mode de paiement : ☐ Carte bancaire ☐ Virement ☐ Espèces
-- Fréquence prévue : ☐ Ponctuelle ☐ Hebdomadaire ☐ Mensuelle
+### 💳 **Mode de paiement** 
+- [ ] **Carte bancaire**
+- [ ] **Mpesa**
+- [ ] **Orange Money**
+- [ ] **Airtel Money**
+- [ ] **Cash à la livraison**
 
 ---
 
-## **Commentaires ou Demandes Spéciales**
-_______________________________________________
-_______________________________________________
-_______________________________________________
+### ✅ **Validation de la commande**
+- **Montant total estimé** : ______ FC
+- **Frais de livraison** : ______ FC (*variables selon la distance*)
+- **Acceptation des conditions** :  
+  ☐ Je certifie que je suis âgé(e) de 18 ans ou plus pour les boissons alcoolisées .  
+  ☐ J'accepte les conditions générales de livraison (annulation sous 2h avant livraison)
+
+- **Suivi de commande** : Un SMS de confirmation sera envoyé avec le numéro de suivi.
 
 ---
 
-**Date de la demande** : __/__/____  
-**Signature** : _________________________
+**BRACLIC - Livraison rapide et fiable à Kinshasa**  
+*Partenaire officiel de distribution Bralima et boissons diverses* 
 
-Merci d'avoir complété ce formulaire. Un conseiller BRAClic vous contactera dans les 24 heures pour confirmer votre demande et vous proposer un devis personnalisé.
-
-Pour toute question urgente, contactez-nous au :
-📞 01 23 45 67 89
-✉️ contact@braclic.fr
-
-*BRAClic - Livré rapidement, livré bien.*
 
 ## 📞 Contact
-
-- **Joël Kisuba Malumalu** - [+243 859 066 929](https://wa.me/243859066929)
+Alain IFALE tel +243828355093 
+- **Joël Kisuba Malumalu** - [+243 859 066 929] (https://wa.me/243859066929)
 - **Email**: joelkisuba2@gmail.com
 
 ---
