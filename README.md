@@ -27,6 +27,87 @@ Notre formulaire de commande est disponible à l'adresse: [https://j5asbl.github
 - ✅ Compatible mobile et desktop
 - ✅ Design responsive qui s'adapte à tous les appareils
 
+# Formulaire BRAClic - Demande de Service de Livraison
+
+Bonjour [Nom du Client],
+
+Nous vous remercions de votre intérêt pour BRAClic, votre service de livraison rapide et fiable. Pour mieux répondre à vos besoins, veuillez remplir ce formulaire détaillé.
+
+---
+
+## **Informations Personnelles**
+- Nom complet : _________________________________
+- Société/Entreprise : ___________________________
+- Adresse email : ________________________________
+- Numéro de téléphone : _________________________
+- Adresse postale : ______________________________
+- Code postal : __________ Ville : _________________
+
+---
+
+## **Détails de la Livraison**
+- Type de colis : ☐ Document ☐ Petit paquet ☐ Colis volumineux
+- Dimensions (L x l x H) : _______ cm x _______ cm x _______ cm
+- Poids approximatif : _______ kg
+- Nature du contenu : ____________________________
+- Valeur déclarée : _______ €
+
+---
+
+## **Adresses de Livraison**
+**Point de ramassage :**
+- Adresse : ____________________________________
+- Code postal : __________ Ville : _________________
+- Personne à contacter : _________________________
+- Téléphone sur place : __________________________
+- Plage horaire préférée : ☐ Matin ☐ Après-midi ☐ Soirée
+
+**Point de livraison :**
+- Adresse : ____________________________________
+- Code postal : __________ Ville : _________________
+- Personne à contacter : _________________________
+- Téléphone sur place : __________________________
+- Instructions spéciales : ________________________
+_______________________________________________
+
+---
+
+## **Préférences de Service**
+- Délai de livraison souhaité :
+  ☐ Express (2-4h) ☐ Standard (24h) ☐ Économique (48h)
+- Options supplémentaires :
+  ☐ Livraison contre signature
+  ☐ Preuve de livraison avec photo
+  ☐ Assurance complète
+  ☐ Emballage professionnel (+15€)
+  ☐ Livraison dimanche/férié (+30%)
+
+---
+
+## **Informations de Paiement**
+- Mode de paiement : ☐ Carte bancaire ☐ Virement ☐ Espèces
+- Fréquence prévue : ☐ Ponctuelle ☐ Hebdomadaire ☐ Mensuelle
+
+---
+
+## **Commentaires ou Demandes Spéciales**
+_______________________________________________
+_______________________________________________
+_______________________________________________
+
+---
+
+**Date de la demande** : __/__/____  
+**Signature** : _________________________
+
+Merci d'avoir complété ce formulaire. Un conseiller BRAClic vous contactera dans les 24 heures pour confirmer votre demande et vous proposer un devis personnalisé.
+
+Pour toute question urgente, contactez-nous au :
+📞 01 23 45 67 89
+✉️ contact@braclic.fr
+
+*BRAClic - Livré rapidement, livré bien.*
+
 ## 📞 Contact
 
 - **Joël Kisuba Malumalu** - [+243 859 066 929](https://wa.me/243859066929)
