@@ -1,6 +1,6 @@
 # J5asbl.github.io
 Fichier détail du formulaire 
-# BRAClic - Livraison & Réseau Brahma en 1 Clic
+# BRAClic - Livraison & Réseau Bralima a en 1 Clic
 
 > Une bière, un clic, un revenu
 
