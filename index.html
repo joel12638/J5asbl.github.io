@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAClic - Commande WhatsApp</title>
+    <style>
+        :root {
+            --prim-color: #B8860B;
+            --sec-color: #00308F;
+            --acc-color: #8B0000;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, var(--prim-color), var(--sec-color), var(--acc-color));
+            padding: 20px;
+            border-radius: 10px;
+            color: white;
+        }
+        .form-container {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #444;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+        input:focus, select:focus, textarea:focus {
+            border-color: var(--prim-color);
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(184, 134, 11, 0.2);
+        }
+        button {
+            background: linear-gradient(135deg, var(--prim-color), var(--sec-color));
+            color: white;
+            border: none;
+            padding: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 18px;
+            font-weight: bold;
+            width: 100%;
+            margin-top: 15px;
+        }
+        button:hover {
+            background: linear-gradient(135deg, #daa520, #0040a0);
+        }
+        .whatsapp-icon {
+            vertical-align: middle;
+            margin-right: 10px;
+            width: 24px;
+            height: 24px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 14px;
+            color: #666;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+        }
+        .confirmation {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .required {
+            color: #e32;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>BRAClic</h1>
+        <p>Une bière, un clic, un revenu</p>
+    </div>
+
+    <h2>Formulaire de Commande Directe</h2>
+    <p>Remplissez ce formulaire pour passer commande directement via WhatsApp. Votre commande sera traitée dans les plus brefs délais.</p>
+
+    <div id="confirmation" class="confirmation">
+        ✅ Votre commande a été envoyée avec succès! Vous allez être redirigé vers WhatsApp.
+    </div>
+
+    <div class="form-container">
+        <form id="braclicForm">
+            <div class="form-group">
+                <label for="name">Nom complet <span class="required">*</span></label>
+                <input type="text" id="name" required placeholder="Votre nom complet">
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Numéro de téléphone <span class="required">*</span></label>
+                <input type="tel" id="phone" required placeholder="Votre numéro WhatsApp">
+            </div>
+
+            <div class="form-group">
+                <label for="product">Produit souhaité <span class="required">*</span></label>
+                <select id="product" required>
+                    <option value="">Sélectionnez un produit</option>
+                    <option value="Primus">Primus</option>
+                    <option value="Mützig">Mützig</option>
+                    <option value="Coca-Cola">Coca-Cola</option>
+                    <option value="Sprite">Sprite</option>
+                    <option value="Fanta">Fanta</option>
+                    <option value="eau">Eau</option>
+                    <option value="autre">Autre (précisez dans message)</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="format">Format <span class="required">*</span></label>
+                <select id="format" required>
+                    <option value="">Sélectionnez un format</option>
+                    <option value="bouteille">Bouteille</option>
+                    <option value="caisse">Caisse</option>
+                    <option value="fût">Fût</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="quantity">Quantité <span class="required">*</span></label>
+                <input type="number" id="quantity" min="1" required placeholder="Nombre d'unités">
+            </div>
+
+            <div class="form-group">
+                <label for="address">Adresse de livraison <span class="required">*</span></label>
+                <textarea id="address" rows="3" required placeholder="Votre adresse complète (quartier, avenue, numéro)"></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message supplémentaire (optionnel)</label>
+                <textarea id="message" rows="2" placeholder="Instructions spéciales, commentaires, ou autre produit"></textarea>
+            </div>
+
+            <button type="submit">
+                <img class="whatsapp-icon" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCIgaGVpZ2h0PSI0OCIgd2lkdGg9IjQ4Ij48cGF0aCBmaWxsPSIjZmZmIiBkPSJNNCA0MGw0LTExYy0yLTQtMS04LTMtMTFsMTUtMTNjNSA0IDcgOSA2IDE0bC0yIDhjLTIgNC02IDUtMTAgNGwtMTEtNGgyMHoiLz48cGF0aCBmaWxsPSIjZmZmIiBkPSJNMTMgMTBsLTYgNi0zLTJjMi0zIDUtNiA5LTdsLTUgNmMxIDIgMiA1IDIgN2wtMy0xeiIvPjxwYXRoIGZpbGw9IiM2MGE5NTYiIGQ9Ik0yNCA2QTM4IDM4IDAgMCAwIDYgMjRsNCAxMWMxIDIgNCA0IDcgNGgxMWEzOCAzOCAwIDEgMCAwLTc2eiIvPjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0yMiAyNGMtMS0xLTQtMS01IDBsLTQgNGMtMSAxLTIgNC0xIDZsLTQgMWMtMSAwLTEtMi0yLTNsNy03YzIgMiA1IDUgNyA3bC0xLTFjLTEtMS0zLTQtMy02bDQtNGMxLTEgMi0zIDEtNHoiLz48L3N2Zz4=" alt="WhatsApp">
+                Envoyer la commande via WhatsApp
+            </button>
+        </form>
+    </div>
+
+    <div class="footer">
+        <p><strong>BRAClic</strong> - Livraison & Réseau Brahma en 1 Clic</p>
+        <p>📞 Tel: +243 859 066 929</p>
+        <p>⏰ Livraison rapide dans tout Kinshasa</p>
+        <p>💳 Paiement: Cash, Mobile Money, Airtel, Orange, M-Pesa</p>
+    </div>
+
+    <script>
+        document.getElementById('braclicForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const name = document.getElementById('name').value;
+            const phone = document.getElementById('phone').value;
+            const product = document.getElementById('product').value;
+            const format = document.getElementById('format').value;
+            const quantity = document.getElementById('quantity').value;
+            const address = document.getElementById('address').value;
+            const message = document.getElementById('message').value;
+            
+            if (!name || !phone || !product || !format || !quantity || !address) {
+                alert("Veuillez remplir tous les champs obligatoires (*)");
+                return;
+            }
+            
+            document.getElementById('confirmation').style.display = 'block';
+            
+            const whatsappMessage = `NOUVELLE COMMANDE BRACLIC%0A%0A*Client:* ${encodeURIComponent(name)}%0A*Téléphone:* ${encodeURIComponent(phone)}%0A*Produit:* ${encodeURIComponent(product)}%0A*Format:* ${encodeURIComponent(format)}%0A*Quantité:* ${encodeURIComponent(quantity)}%0A*Adresse de livraison:* ${encodeURIComponent(address)}%0A*Message:* ${encodeURIComponent(message || 'Aucun message')}%0A%0A*Merci de valider cette commande*`;
+            
+            setTimeout(function() {
+                window.open(`https://wa.me/243859066929?text=${whatsappMessage}`, '_blank');
+                
+                document.getElementById('braclicForm').reset();
+                
+                setTimeout(function() {
+                    document.getElementById('confirmation').style.display = 'none';
+                }, 5000);
+            }, 1500);
+        });
+    </script>
+</body>
+</html>
