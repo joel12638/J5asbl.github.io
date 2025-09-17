@@ -4,7 +4,7 @@ Fichier détail du formulaire
 
 > Une bière, un clic, un revenu
 
-BRAClic est une plateforme innovante qui digitalise la chaîne de distribution des produits Bralima (Primus, Mützig, Coca-Cola, Nkoyi ,etc.) en permettant aux clients de commander en quelques clics, de localiser les dépôts, d'être livrés rapidement, et de devenir des revendeurs indépendants officiels.
+BRAClic est une plateforme innovante qui digitalise la chaîne de distribution des produitsBralima (Primus, Mützig, Coca-Cola, Nkoyi ,etc.) en permettant aux clients de commander en quelques clics, de localiser les dépôts, d'être livrés rapidement, et de devenir des revendeurs indépendants officiels.
 
 ## 🌐 Formulaire de Commande en Ligne
 
